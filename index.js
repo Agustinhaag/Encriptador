@@ -31,9 +31,11 @@
  elemenpadre.className="mostrar";
 }
 function sucess(){
+  let form = document.getElementById("form")
   let small= document.getElementById("small");
   let elemenpadre= small.parentElement;
  elemenpadre.className="container-small";
+ form.submit();
 }
 
  let btn2= document.querySelector("#btn2");
@@ -61,5 +63,3 @@ function sucess(){
     btn3.textContent = "Copiar";
   }, 1000);
  } 
-
-
