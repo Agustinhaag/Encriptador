@@ -35,7 +35,6 @@ function sucess(){
   let small= document.getElementById("small");
   let elemenpadre= small.parentElement;
  elemenpadre.className="container-small";
- form.submit();
 }
 
  let btn2= document.querySelector("#btn2");
